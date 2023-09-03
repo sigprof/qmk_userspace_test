@@ -1,0 +1,4 @@
+DYNAMIC_MACRO_ENABLE = yes
+TAP_DANCE_ENABLE = yes
+KEYBOARD_SHARED_EP = yes
+DEBOUNCE_TYPE = asym_eager_defer_pk
