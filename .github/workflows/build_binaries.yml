@@ -9,7 +9,7 @@ permissions:
 jobs:
   build:
     name: QMK Userspace
-    uses: qmk/qmk_firmware/.github/workflows/qmk_userspace_build.yml@qmk-userspace
+    uses: sigprof/qmk_userspace_test/.github/workflows/qmk_userspace_build.yml@main
     with:
       qmk_repo: qmk/qmk_firmware
       qmk_ref: master
